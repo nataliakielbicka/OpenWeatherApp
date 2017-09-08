@@ -3,14 +3,14 @@ fetch(myIp).then(res => {
     return res.json()
         .then(data => {
         const ip = data.ip;
-        const myGeoIp = `http://freegeoip.net/json/${ip}`;
+        const myGeoIp = `https://freegeoip.net/json/${ip}`;
         return fetch(myGeoIp)
             .then(res => {
             return res.json()
                 .then(data => {
                 const lat = data.latitude;
                 const lon = data.longitude;
-                const weatherApp = `http://api.openweathermap.org/data/2.5/forecast/daily?id=524901&APPID=bd5e378503939ddaee76f12ad7a97608&cnt=3&units=metric&lat=${lat}&lon=${lon}`;
+                const weatherApp = `https://api.openweathermap.org/data/2.5/forecast/daily?id=524901&APPID=bd5e378503939ddaee76f12ad7a97608&cnt=3&units=metric&lat=${lat}&lon=${lon}`;
                 return fetch(weatherApp)
                     .then(res => {
                     return res.json()
