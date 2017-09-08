@@ -8,3 +8,5 @@
  4. Open cmd and in your project directory run: npm install browser-sync gulp gulp-sass gulp-rename gulp-typescript -g, so you installed all the necessary packages globally.
  5. In your project directory run npm install
  6. When everything went right, in your favourite browser you should see my app using url: localhost:3000
+
+### App is available online: https://nataliakielbicka.github.io/OpenWeatherApp/
