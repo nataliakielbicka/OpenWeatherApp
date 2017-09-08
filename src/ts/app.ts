@@ -16,7 +16,6 @@
                 return res.json()
                 .then(data => {
                   const weatherTable = document.getElementById("weatherTable");
-                  console.log(data)
                   const tempArr:any[] = data.list;
                   let result: string = "";
                     tempArr.forEach(v => {

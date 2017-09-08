@@ -16,7 +16,6 @@ fetch(myIp).then(res => {
                     return res.json()
                         .then(data => {
                         const weatherTable = document.getElementById("weatherTable");
-                        console.log(data);
                         const tempArr = data.list;
                         let result = "";
                         tempArr.forEach(v => {
