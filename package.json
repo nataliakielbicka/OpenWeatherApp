@@ -1,19 +1,19 @@
 {
-  "name": "abc",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/ts/app.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "natalia kielbicka",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-typescript": "^3.2.2",
-    "typescript": "^2.5.2"
-  }
+    "name": "weatherapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/ts/app.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "natalia kielbicka",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.18.13",
+        "gulp": "^3.9.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-typescript": "^3.2.2",
+        "typescript": "^2.5.2"
+    }
 }
